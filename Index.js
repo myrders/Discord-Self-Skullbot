@@ -15,10 +15,8 @@ Instance.on('messageCreate', async (Message) => {
 
     if (skullLoopActive) {
 
-        Message.react('💀');
-
-    }  
-
+        Message.react('💀');1211248916725497926
+    }  1211248916725497926
     if (Message.content.startsWith('!skullyes')) {
         Message.delete();
         skullLoopActive = true;
