@@ -15,12 +15,9 @@ Instance.on('messageCreate', async (Message) => {
 
     if (skullLoopActive) {
 
-        Message.react('💀');
-
-    }  
-
-    if (Message.content.startsWith('!skullyes')) {
-        Message.delete();
+        Message.react('💀');1211248916725497926
+    }  1211248916725497926
+    if (Message.content.startsWith('!skullyes')) {1211248916725497926        Message.delete();
         skullLoopActive = true;
         Message.channel.send('Skull reaction loop activated! 💀');
 
